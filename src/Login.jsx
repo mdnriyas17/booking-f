@@ -38,7 +38,7 @@ function Login() {
   });
   return (
     <div className="container">
-      <img className='loginlogo'  src='https://www.pngitem.com/pimgs/m/193-1936701_transparent-bookmyshow-logo-hd-png-download.png'></img>
+      <img className='loginlogo' src='https://www.pngitem.com/pimgs/m/193-1936701_transparent-bookmyshow-logo-hd-png-download.png'></img>
       <div className="col">
         <div className="row">
           <form onSubmit={formik.handleSubmit}>
@@ -58,7 +58,7 @@ function Login() {
 
             <div className="mb-4 col-lg-6">
               <label for="username" className="form-label">
-               <h4> UserName</h4>
+                <h4> UserName</h4>
               </label>
               <input
                 type="text"
@@ -98,15 +98,15 @@ function Login() {
             </div>
           </form>
         </div>
-                <div style={{fontSize:"20px"}}>
-                  For Testing:<br/>
-                  Role: User<br/>
-                  username: client<br/>
-                  password: client2525<br/>
-                  Role: Admin<br/>
-                  username: admin<br/>
-                  password: admin2525<br/>
-                  </div>
+        <div style={{ fontSize: "20px" }}>
+          For Testing:<br />
+          Role: User<br />
+          username: client<br />
+          password: client2525<br />
+          Role: Admin<br />
+          username: admin<br />
+          password: admin2525<br />
+        </div>
       </div>
     </div>
   );
